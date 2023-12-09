@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gproject/view/screens/home_page.dart';
 import 'package:gproject/view/screens/start/splashscreen.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // ignore: prefer_const_constructors
-      home: SplashScreen(),
+      home: HomePage(),
     );
   }
 }
